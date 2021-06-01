@@ -1,0 +1,18 @@
+2021/04/21-08:21:40.562 1e95 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_lite.shopee.co.id_0.indexeddb.leveldb since it was missing.
+2021/04/21-08:21:40.570 1e95 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_lite.shopee.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/21-08:21:46.914 b1c Level-0 table #5: started
+2021/04/21-08:21:46.915 b1c Level-0 table #5: 3935 bytes OK
+2021/04/21-08:21:46.917 b1c Delete type=0 #3
+2021/04/21-08:21:46.918 b1c Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/21-08:37:30.463 21fd Level-0 table #7: started
+2021/04/21-08:37:30.470 21fd Level-0 table #7: 15927 bytes OK
+2021/04/21-08:37:30.472 21fd Delete type=0 #4
+2021/04/21-08:37:30.472 21fd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/21-08:37:30.472 21fd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x000\x008\x003\x003\x002\x009\x002\x008\x007\x005\x002\x00:\x00w\x00e\x00b\x00:\x005\x00a\x002\x00d\x001\x00c\x00b\x00b\x00f\x00a\x00d\x00c\x00e\x009\x008\x00d\x008\x002\x008\x004\x003\x005' @ 227 : 1
+2021/04/21-08:37:30.472 21fd Compacting 1@1 + 1@2 files
+2021/04/21-08:37:30.474 21fd Generated table #8@1: 59 keys, 1961 bytes
+2021/04/21-08:37:30.474 21fd Compacted 1@1 + 1@2 files => 1961 bytes
+2021/04/21-08:37:30.475 21fd compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/21-08:37:30.475 21fd Delete type=2 #7
+2021/04/21-08:37:30.475 21fd Delete type=2 #5
+2021/04/21-08:37:30.475 21fd Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x000\x008\x003\x003\x002\x009\x002\x008\x007\x005\x002\x00:\x00w\x00e\x00b\x00:\x005\x00a\x002\x00d\x001\x00c\x00b\x00b\x00f\x00a\x00d\x00c\x00e\x009\x008\x00d\x008\x002\x008\x004\x003\x005' @ 227 : 1 .. (end); will stop at (end)

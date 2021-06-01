@@ -1,0 +1,2 @@
+nitrogen --restore&
+tint2 -c ~/.config/tint2/minima.tint2rc&

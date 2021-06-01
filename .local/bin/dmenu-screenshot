@@ -1,0 +1,74 @@
+#!/bin/bash
+
+# DMENU="/usr/local/bin/dmenu"
+DMENU="/usr/bin/rofi -dmenu -i -lines 8 -width 200"
+
+captureFullScreen() {
+    $HOME/bin/scrot-full
+}
+
+captureFullScreenPlus() {
+    $HOME/bin/scrot-full
+    $HOME/bin/scrot-mac
+}
+
+captureFullScreenTime() {
+    $HOME/bin/scrot-time
+}
+
+captureWindow() {
+    $HOME/bin/scrot-window
+}
+
+captureWindowPlus() {
+    $HOME/bin/scrot-window-imgck
+}
+
+captureFlameshot() {
+    /usr/bin/flameshot gui
+}
+
+captureFlameshotPlus() {
+    $HOME/bin/flameshot-imgck
+}
+
+captureFlameshotTime() {
+    sleep 3
+    $HOME/bin/flameshot-imgck
+}
+
+cropLaptop() {
+    $HOME/bin/imgmagick-crop-laptop $1
+}
+
+cropMonitor() {
+    $HOME/bin/imgmagick-crop-monitor $1
+}
+
+# menu name         function name
+OPTIONS='''
+[
+["Fullscreen",      "captureFullScreen"],
+["Fullscreen+",     "captureFullScreenPlus"],
+["Fullscreen Time", "captureFullScreenTime"],
+["Window",          "captureWindow"],
+["Window+",         "captureWindowPlus"],
+["Flameshot",       "captureFlameshot"],
+["Flameshot+",      "captureFlameshotPlus"],
+["Flameshot Time",  "captureFlameshotTime"]
+]
+'''
+# Don't put comma on last array element!
+
+monitors=$(xrandr --listmonitors | grep 'Monitors:' | tr -d "Monitors: ")
+if [ "$monitors" = "2" ]; then
+    OPTIONS+='''[
+    ["Crop Laptop",     "cropLaptop '1024x768+576+900'"],
+    ["Crop Monitor",    "cropMonitor '1600x900+0+0'"]
+    ]'''
+fi
+
+obj_menu=$(echo $OPTIONS | jq -r ".[][0]" | $DMENU -p " ScreenShot")
+obj_selected=$(echo $OPTIONS | jq -r ".[] | select(.[0] == \"$obj_menu\") | .[1]")
+
+$obj_selected

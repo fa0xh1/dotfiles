@@ -1,0 +1,69 @@
+#!/bin/bash
+
+monitors=$(xrandr --listmonitors | grep 'Monitors:' | tr -d "Monitors: ")
+
+if [ "$monitors" = "2" ]; then
+# DMENU="/usr/local/bin/dmenu"
+DMENU="/usr/bin/rofi -dmenu -lines 1 -width 200"
+else
+DMENU="/usr/bin/rofi -dmenu -lines 2 -width 200"
+fi
+
+reso_monitor_lg=$(xrandr | grep -i 'VGA1 connected' | awk 'NR%1==0 {print $3}')
+if [ ! "$reso_monitor_lg" = "1600x900+0+0" ]; then
+    cvt 1600 900 60
+    xrandr --newmode "1600x900" \
+    118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+    xrandr --addmode VGA1 1600x900
+    echo "=> Add newmode 1600x900, DONE!"
+fi
+
+monitor_lg() {
+    xrandr --output LVDS1 --primary --mode 1024x768 --pos 576x900 --rotate normal --output VGA1 --mode 1600x900 --pos 0x0 --rotate normal --output VIRTUAL1 --off
+    sleep 1
+    feh --bg-fill -Z $WALLPAPER3 --bg-fill $WALLPAPER1
+    # restart_polybar
+}
+
+monitor_laptop() {
+    xrandr --output LVDS1 --primary --mode 1024x768 --pos 0x0 --rotate normal --output VGA1 --off --output VIRTUAL1 --off
+    sleep 1
+    xrandr --delmode VGA1 1600x900
+    xrandr --rmmode 1600x900
+    feh --bg-fill -Z $WALLPAPER3
+    # restart_polybar
+}
+
+hdmi_capture() {
+    xrandr --output LVDS1 --mode 1024x768 --primary --pos 0x0 --rotate normal --output VGA1 --mode 1024x768 --pos 4x0 --rotate normal
+    sleep 1
+    feh --bg-fill -Z $WALLPAPER3
+    # restart_polybar
+}
+
+restart_polybar() {
+    pkill -x "polybar"
+    $HOME/.config/polybar/launch.sh &
+}
+
+if [ "$monitors" = "2" ]; then
+# menu name         function name
+OPTIONS='''
+[
+["Single", "monitor_laptop"]
+]
+'''
+else
+# menu name         function name
+OPTIONS='''
+[
+["Dual", "monitor_lg"],
+["CaptureCard", "hdmi_capture"]
+]
+'''
+fi
+
+obj_menu=$(echo $OPTIONS | jq -r ".[][0]" | $DMENU -i -p " Monitor")
+obj_selected=$(echo $OPTIONS | jq -r ".[] | select(.[0] == \"$obj_menu\") | .[1]")
+
+$obj_selected

@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+
+# LAUNCHER="/usr/local/bin/dmenu"
+LAUNCHER="/usr/bin/rofi"
+
+# call sanitizer for sanitize the dust
+sanitizer > /dev/null 2>&1
+
+# GnuPG clear cache time out
+gpg-connect-agent reloadagent /bye
+
+# Disable clipmenu
+clipctl disable
+
+shopt -s nullglob globstar
+
+password_files=( ~/.password-store/**/*.gpg )
+password_files=( "${password_files[@]##*/.password-store/}" )
+password_files=( "${password_files[@]%.gpg}" )
+
+# dmenu
+# password=$(printf '%s\n' "${password_files[@]}" | $LAUNCHER -i -m 0 -l 8 -g 2 "$@")
+
+# rofi
+password=$(printf '%s\n' "${password_files[@]}" | $LAUNCHER -dmenu -i -lines 5 -width 350 -p ' Credentials' "$@")
+
+pass -c "$password"
+
+# Enale clipmenu
+clipctl enable

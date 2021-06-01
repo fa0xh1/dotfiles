@@ -1,0 +1,9 @@
+[general]
+theme=elementary
+
+[button]
+size=96
+
+[label]
+font=Monospace Bold 10
+color=#B0C4DE

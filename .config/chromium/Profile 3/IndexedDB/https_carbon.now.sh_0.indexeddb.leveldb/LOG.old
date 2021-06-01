@@ -1,0 +1,6 @@
+2021/05/01-14:33:33.788 2134 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_carbon.now.sh_0.indexeddb.leveldb since it was missing.
+2021/05/01-14:33:33.799 2134 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_carbon.now.sh_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/01-14:33:36.749 251f Level-0 table #5: started
+2021/05/01-14:33:36.758 251f Level-0 table #5: 1109 bytes OK
+2021/05/01-14:33:36.760 251f Delete type=0 #3
+2021/05/01-14:33:36.760 251f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

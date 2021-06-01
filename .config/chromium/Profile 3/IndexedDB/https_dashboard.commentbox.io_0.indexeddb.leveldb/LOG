@@ -1,0 +1,15 @@
+2021/05/19-23:44:36.604 3475 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_dashboard.commentbox.io_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/19-23:44:36.605 3475 Recovering log #4
+2021/05/19-23:44:36.605 3475 Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_dashboard.commentbox.io_0.indexeddb.leveldb/000004.log 
+2021/05/19-23:47:35.161 34e4 Level-0 table #8: started
+2021/05/19-23:47:35.168 34e4 Level-0 table #8: 14600 bytes OK
+2021/05/19-23:47:35.169 34e4 Delete type=0 #4
+2021/05/19-23:47:35.170 34e4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/19-23:47:35.170 34e4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00A\x009\x00R\x00S\x00w\x00B\x00d\x00K\x003\x00r\x00X\x00Q\x00W\x00N\x00Y\x00w\x00n\x00P\x00v\x00J\x00J\x00S\x009\x00c\x00O\x00V\x00v\x00r\x00v\x00W\x00d\x00Z\x00E\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 167 : 1
+2021/05/19-23:47:35.170 34e4 Compacting 1@1 + 1@2 files
+2021/05/19-23:47:35.172 34e4 Generated table #9@1: 19 keys, 3611 bytes
+2021/05/19-23:47:35.172 34e4 Compacted 1@1 + 1@2 files => 3611 bytes
+2021/05/19-23:47:35.173 34e4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/19-23:47:35.173 34e4 Delete type=2 #8
+2021/05/19-23:47:35.173 34e4 Delete type=2 #5
+2021/05/19-23:47:35.174 34e4 Manual compaction at level-1 from '\x00\x01\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00A\x009\x00R\x00S\x00w\x00B\x00d\x00K\x003\x00r\x00X\x00Q\x00W\x00N\x00Y\x00w\x00n\x00P\x00v\x00J\x00J\x00S\x009\x00c\x00O\x00V\x00v\x00r\x00v\x00W\x00d\x00Z\x00E\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 167 : 1 .. (end); will stop at (end)

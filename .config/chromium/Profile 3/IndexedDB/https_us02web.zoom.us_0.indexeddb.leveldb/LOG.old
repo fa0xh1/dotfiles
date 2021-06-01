@@ -1,0 +1,6 @@
+2021/05/29-19:29:51.432 3d73 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_us02web.zoom.us_0.indexeddb.leveldb since it was missing.
+2021/05/29-19:29:51.441 3d73 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_us02web.zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/29-19:30:48.737 3da5 Level-0 table #5: started
+2021/05/29-19:30:48.744 3da5 Level-0 table #5: 3840 bytes OK
+2021/05/29-19:30:48.746 3da5 Delete type=0 #3
+2021/05/29-19:30:48.746 3da5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

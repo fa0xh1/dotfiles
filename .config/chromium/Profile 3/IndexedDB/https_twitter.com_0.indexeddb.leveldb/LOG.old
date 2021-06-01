@@ -1,0 +1,8 @@
+2021/05/02-15:17:02.520 1c8c Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/02-15:17:02.521 1c8c Recovering log #7
+2021/05/02-15:17:02.521 1c8c Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000007.log 
+2021/05/02-15:17:34.602 1c93 Level-0 table #11: started
+2021/05/02-15:17:34.602 1c93 Level-0 table #11: 0 bytes OK
+2021/05/02-15:17:34.611 1c93 Delete type=0 #7
+2021/05/02-15:17:34.611 1c93 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/02-15:17:34.611 1c93 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

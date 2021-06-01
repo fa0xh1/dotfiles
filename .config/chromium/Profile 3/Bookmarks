@@ -1,0 +1,201 @@
+{
+   "checksum": "9a483b86f7949acca08f7c8ca0b5f4c6",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13263446729219698",
+            "guid": "ae0d3c8b-2396-47b0-ad7b-29f6d5634db8",
+            "id": "5",
+            "name": "Belajar Webpack 4 dan Cara Penggunaanya pada ReactJs | by Ridoan S. N. | Medium",
+            "type": "url",
+            "url": "https://ridoansalehnst.medium.com/belajar-webpack-4-dan-cara-penggunaanya-pada-reactjs-9af96bf451fb"
+         }, {
+            "date_added": "13263447913763598",
+            "guid": "79905bdb-1725-48e9-ab0c-19ecb630a05b",
+            "id": "6",
+            "name": "Setting up Prettier and ESlint for JS and React Apps | by Mahmoud Felfel | dubizzle Engineering | Medium",
+            "type": "url",
+            "url": "https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062"
+         }, {
+            "date_added": "13263448489748628",
+            "guid": "8e880f18-128b-4c96-a990-c400a89a2ddf",
+            "id": "7",
+            "name": "Private Route, Public Route, and Restricted Route with React Router | by Binh Tran | Medium",
+            "type": "url",
+            "url": "https://medium.com/@thanhbinh.tran93/private-route-public-route-and-restricted-route-with-react-router-d50b27c15f5e"
+         }, {
+            "date_added": "13263617766855210",
+            "guid": "f23c8b08-d704-42a1-9f6f-095a0293f886",
+            "id": "11",
+            "name": "GenericAPIView -- Classy DRF",
+            "type": "url",
+            "url": "https://www.cdrf.co/3.12/rest_framework.generics/GenericAPIView.html"
+         }, {
+            "date_added": "13263617770325434",
+            "guid": "d662629a-f49c-4f96-b49b-19b772cdb74b",
+            "id": "12",
+            "name": "Django REST Framework 3.12 -- Classy DRF",
+            "type": "url",
+            "url": "https://www.cdrf.co/"
+         }, {
+            "date_added": "13263633975763131",
+            "guid": "9a7ce0e5-28cf-4044-a299-373abc6293b4",
+            "id": "13",
+            "name": "generics vs viewset in django rest framework, how to prefer which one to use? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/49482453/generics-vs-viewset-in-django-rest-framework-how-to-prefer-which-one-to-use"
+         }, {
+            "date_added": "13263647043500614",
+            "guid": "98381e25-d64d-4797-b7c1-41e0808f1e5d",
+            "id": "15",
+            "name": "Django Rest Framework Permissions example | by dipesh | Medium",
+            "type": "url",
+            "url": "https://blog.dipeshpaudel.com.np/django-rest-framework-permissions-example-8ed9809c432d"
+         }, {
+            "date_added": "13263728435010367",
+            "guid": "0b8d980c-cfcb-44c7-93d5-5834f03b1c24",
+            "id": "17",
+            "name": "Authentication in Django & Django Rest Framework | by Alexis Chilinski | Level Up Coding",
+            "type": "url",
+            "url": "https://levelup.gitconnected.com/authentication-in-django-django-rest-framework-be1ae3168d26"
+         }, {
+            "date_added": "13263807776777356",
+            "guid": "c61ff842-65b9-4c16-8608-762989ca9199",
+            "id": "19",
+            "name": "python - Django Permission Required - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/58099040/django-permission-required"
+         }, {
+            "date_added": "13263817320855735",
+            "guid": "bdf8aaee-be8f-4f51-ba2a-0f26cc92c51e",
+            "id": "21",
+            "name": "django - Integrity Error: NOT NULL constraint failed: users_profile.user_id - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/63534685/integrity-error-not-null-constraint-failed-users-profile-user-id"
+         }, {
+            "date_added": "13264052362541137",
+            "guid": "62304caa-26ca-45e8-8709-648d7098f686",
+            "id": "23",
+            "name": "Django Roles, Groups and Permissions | DjangoTube:",
+            "type": "url",
+            "url": "https://medium.com/djangotube/django-roles-groups-and-permissions-introduction-a54d1070544"
+         }, {
+            "date_added": "13264052758705354",
+            "guid": "bfcd9207-1885-4786-b1a5-82498eab6dfd",
+            "id": "24",
+            "name": "Django rest framework: How to make a simple file upload API using viewsets. | by Joel Hanson | Medium",
+            "type": "url",
+            "url": "https://joel-hanson.medium.com/drf-how-to-make-a-simple-file-upload-api-using-viewsets-1b1e65ed65ca"
+         }, {
+            "date_added": "13264069985898860",
+            "guid": "c7a482d6-e1aa-41f2-a380-dea4ed55d736",
+            "id": "25",
+            "name": "Great Projects: Weather Station Clock Scrolling Message Matrix P4 Web Server ESP8266",
+            "type": "url",
+            "url": "https://arduino-projects-free.blogspot.com/2019/05/weather-station-clock-scrolling-message.html"
+         }, {
+            "date_added": "13264071671265061",
+            "guid": "1166b59d-bbd5-4857-be23-6594bb9d1776",
+            "id": "26",
+            "name": "Closure | Belajar Javascript Dengan Contoh",
+            "type": "url",
+            "url": "http://keripix.github.io/belajar-js-dengan-contoh//posts/closure.html"
+         }, {
+            "date_added": "13264143010972868",
+            "guid": "fbde063b-5365-4589-909c-fd83f9dee8b8",
+            "id": "28",
+            "name": "Complete list of github markdown emoji markup · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/rxaviers/7360908"
+         }, {
+            "date_added": "13264403795570830",
+            "guid": "80f54f8a-a7b4-4d47-a8f4-f75bc2efe5f5",
+            "id": "30",
+            "name": "nandkk05/resume-portfolio: Simple and Professional looking portfolio built with React",
+            "type": "url",
+            "url": "https://github.com/nandkk05/resume-portfolio"
+         }, {
+            "date_added": "13264411127777182",
+            "guid": "5cae6a73-b007-49a2-bc23-a4c2f0322565",
+            "id": "31",
+            "name": "git - how to delete all commit history in github? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github"
+         }, {
+            "date_added": "13264499436373319",
+            "guid": "95376271-dacc-4540-a226-1642dd0890e2",
+            "id": "33",
+            "name": "How to import database in MySQL in Docker? · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/geraldvillorente/4c60e7fdb5562f443f16ad2bbe4235ce"
+         }, {
+            "date_added": "13264847301390244",
+            "guid": "ee22508c-e0da-4994-a4f2-329c8dca738c",
+            "id": "35",
+            "name": "State Manajemen Aplikasi Redux. Redux merupakan back-end yang… | by Indra Bayu | SkyshiDigital | Medium",
+            "type": "url",
+            "url": "https://medium.com/skyshidigital/dasar-membuat-perubahan-state-aplikasi-redux-5bd607a5d831#:~:text=Redux%20merupakan%20back%2Dend%20yang%20berkolaborasi%20dengan%20react%20native.&text=Pada%20dasarnya%20peran%20Redux%20dalam,yaitu%20action%2C%20reducer%2C%20store."
+         }, {
+            "date_added": "13265871442150968",
+            "guid": "18863876-f9ea-4de6-96ff-bae791e68c39",
+            "id": "37",
+            "name": "Memulai dengan Chart.js: Grafik Garis dan Batang.",
+            "type": "url",
+            "url": "https://code.tutsplus.com/id/tutorials/getting-started-with-chartjs-line-and-bar-charts--cms-28384"
+         }, {
+            "date_added": "13266388129817908",
+            "guid": "f2a535cb-a333-4d1f-beb9-36982f8b30ff",
+            "id": "39",
+            "name": "quoting - What Vim command(s) can be used to quote/unquote words? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words"
+         }, {
+            "date_added": "13266826869807511",
+            "guid": "9df64eb7-85bd-41ae-86f5-16f4d46a1b24",
+            "id": "41",
+            "name": "Beralih ke Runit - Anwar's Blog",
+            "type": "url",
+            "url": "https://init.web.id/beralih-ke-runit/"
+         }, {
+            "date_added": "13266829709304467",
+            "guid": "71ad3623-d2a9-497f-9040-43e943730940",
+            "id": "43",
+            "name": "Cleanly run commands that require mysql running · GitHub",
+            "type": "url",
+            "url": "https://gist.github.com/amirkdv/c7d508f4a5d59576b1cf"
+         }, {
+            "date_added": "13266909042745943",
+            "guid": "6f8096db-bf8e-45e4-9396-198a7ab5e3b2",
+            "id": "45",
+            "name": "#FFB52A - Penelusuran Google",
+            "type": "url",
+            "url": "https://www.google.com/search?q=%23FFB52A&oq=%23FFB52A&aqs=chrome..69i57.7407j0j1&sourceid=chrome&ie=UTF-8"
+         } ],
+         "date_added": "13263440734471860",
+         "date_modified": "13266909042745943",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13263440734471862",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13263440734471865",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

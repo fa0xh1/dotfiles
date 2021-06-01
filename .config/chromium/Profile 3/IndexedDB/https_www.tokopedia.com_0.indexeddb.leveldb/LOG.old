@@ -1,0 +1,15 @@
+2021/06/01-14:45:13.898 129d Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_www.tokopedia.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/01-14:45:13.898 129d Recovering log #11
+2021/06/01-14:45:13.898 129d Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_www.tokopedia.com_0.indexeddb.leveldb/000011.log 
+2021/06/01-14:45:34.664 12b3 Level-0 table #16: started
+2021/06/01-14:45:34.666 12b3 Level-0 table #16: 11125 bytes OK
+2021/06/01-14:45:34.668 12b3 Delete type=0 #11
+2021/06/01-14:45:34.668 12b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/06/01-14:45:34.668 12b3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xa0X\x8dh\x9cwB\x00\x01<\x00t\x00o\x00k\x00o\x00p\x00e\x00d\x00i\x00a\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00a\x00d\x00s\x00-\x00t\x00w\x00i\x00t\x00t\x00e\x00r\x00.\x00c\x00o\x00m\x00/\x00u\x00w\x00t\x00.\x00j\x00s' @ 1192 : 1
+2021/06/01-14:45:34.668 12b3 Compacting 1@1 + 1@2 files
+2021/06/01-14:45:34.670 12b3 Generated table #17@1: 63 keys, 6031 bytes
+2021/06/01-14:45:34.670 12b3 Compacted 1@1 + 1@2 files => 6031 bytes
+2021/06/01-14:45:34.672 12b3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/06/01-14:45:34.672 12b3 Delete type=2 #13
+2021/06/01-14:45:34.672 12b3 Delete type=2 #16
+2021/06/01-14:45:34.672 12b3 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xa0X\x8dh\x9cwB\x00\x01<\x00t\x00o\x00k\x00o\x00p\x00e\x00d\x00i\x00a\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00a\x00d\x00s\x00-\x00t\x00w\x00i\x00t\x00t\x00e\x00r\x00.\x00c\x00o\x00m\x00/\x00u\x00w\x00t\x00.\x00j\x00s' @ 1192 : 1 .. (end); will stop at (end)

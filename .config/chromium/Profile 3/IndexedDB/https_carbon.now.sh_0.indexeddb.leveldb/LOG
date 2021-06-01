@@ -1,0 +1,15 @@
+2021/05/01-14:33:39.351 2134 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_carbon.now.sh_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/01-14:33:39.351 2134 Recovering log #4
+2021/05/01-14:33:39.351 2134 Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_carbon.now.sh_0.indexeddb.leveldb/000004.log 
+2021/05/01-14:36:02.855 2134 Level-0 table #8: started
+2021/05/01-14:36:02.863 2134 Level-0 table #8: 29466 bytes OK
+2021/05/01-14:36:02.864 2134 Delete type=0 #4
+2021/05/01-14:36:02.864 2134 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/01-14:36:02.864 2134 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x00\xa02\x90m\x92wB\x00\x018\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00C\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00c\x00a\x00r\x00b\x00o\x00n\x00.\x00n\x00o\x00w\x00.\x00s\x00h\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00b\x00r\x00a\x00n\x00d\x00/\x00i\x00c\x00o\x00n\x00.\x00p\x00n\x00g' @ 869 : 1
+2021/05/01-14:36:02.864 2134 Compacting 1@1 + 1@2 files
+2021/05/01-14:36:02.867 2134 Generated table #9@1: 202 keys, 17032 bytes
+2021/05/01-14:36:02.867 2134 Compacted 1@1 + 1@2 files => 17032 bytes
+2021/05/01-14:36:02.868 2134 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/01-14:36:02.868 2134 Delete type=2 #8
+2021/05/01-14:36:02.868 2134 Delete type=2 #5
+2021/05/01-14:36:02.869 2134 Manual compaction at level-1 from '\x00\x02\x01 \x03\x00\xa02\x90m\x92wB\x00\x018\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00C\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00c\x00a\x00r\x00b\x00o\x00n\x00.\x00n\x00o\x00w\x00.\x00s\x00h\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00b\x00r\x00a\x00n\x00d\x00/\x00i\x00c\x00o\x00n\x00.\x00p\x00n\x00g' @ 869 : 1 .. (end); will stop at (end)

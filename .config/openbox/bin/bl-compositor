@@ -1,0 +1,138 @@
+#!/bin/bash
+#    bl-compositor: an Openbox Pipe Menu for use with compton compositor
+#    Copyright (C) 2012 Philip Newborough   <corenominal@corenominal.org>
+#    Copyright (C) 2013 Aleks-Daniel Jakimenko
+#    Copyright (C) 2015-2018 John Crawley    <john@bunsenlabs.org>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+user_conf="$HOME/.config/compton.conf"
+sys_conf='/etc/bunsen/compton-startup'
+
+HELP="    bl-compositor an Openbox Pipe Menu for use with compton compositor
+    It should normally be called from an openbox menu.
+
+Options (usually passed from the menu):
+    -h --help   show this message
+    --start     start the compositor and restart tint2, if running
+    --restart   restart the compositor, if running, and restart tint2
+    --stop      stop the compositor
+    --edit      open the compton config file in a text editor
+    --watch     restart the compositor whenever the config file is modified
+    (--watch is useful for debugging)
+
+    If bl-compositor is called with no options (the usual method),
+    it will output an xml openbox pipemenu for handling compositing.
+
+See $user_conf and \"man compton\" for configuration options.
+"
+# look for a help option somewhere
+for i in "$@"
+do
+    case "$i" in
+    -h|--help)
+        echo "$HELP"
+        exit 0
+        ;;
+    esac
+done
+
+RESTART_ATTEMPTS=10 # times to try killall before reverting to -s KILL
+
+BL_COMMON_LIBDIR='/home/gh0zialfat1h/.config/openbox/bin/'
+
+if ! . "$BL_COMMON_LIBDIR/bl-include.cfg" 2> /dev/null; then
+    echo $"Error: Failed to source bl-include.cfg in $BL_COMMON_LIBDIR" >&2
+    exit 1
+fi
+
+declareDependencies compton
+
+# ------------- Set compton command options ---------------------------
+
+EXECXCOMP='compton'
+
+# Look for system startup file
+[[ -r $sys_conf ]] && {
+    options=()
+    while read line
+    do
+        options+=(${line%%\#*})
+    done < "$sys_conf"
+
+    for i in "${options[@]}"
+    do
+        EXECXCOMP+=" $i"
+    done
+}
+
+
+forcekill_compton() {
+    for (( i=0; i < RESTART_ATTEMPTS; i++ )); do
+        killall -q compton
+        pidof compton > /dev/null || return 0
+        sleep 0.25
+    done
+    killall -q --signal KILL compton
+}
+
+
+if [[ $1 = '--edit' ]]; then # Edit compton settings
+    [[ ! -f $user_conf ]] &&
+        cp '/usr/share/doc/compton/examples/compton.sample.conf' "$user_conf"
+
+    if hash bl-text-editor;then
+        bl-text-editor "$user_conf"
+    else
+        x-terminal-emulator -T 'edit compton.conf' -e nano "$user_conf"
+    fi
+elif [[ $1 = '--start' ]]; then
+    if ! pidof compton > /dev/null; then
+        $EXECXCOMP &
+        sleep 1
+        bl-tint2restart || true
+    else
+        echo "$0 --start: compton already running" >&2
+    fi
+elif [[ $1 = '--stop' ]]; then
+    forcekill_compton
+    bl-tint2restart || true
+elif [[ $1 = '--restart' ]]; then
+    if pidof compton > /dev/null; then
+        forcekill_compton
+        "$0" --start
+    else # nothing to restart
+        echo "$0 --restart: compton is not running" >&2
+    fi
+elif [[ $1 = '--watch' ]]; then
+    while inotifywait -e close_write "$user_conf" -e close_write "$sys_conf"; do
+        "$0" --restart
+    done
+else
+    # Output Openbox menu
+    menuStart
+    if ! pidof compton > /dev/null; then
+        menuItem 'Enable Compositing' "$0 --start"
+    else
+        menuItem 'Restart Compositing' "$0 --restart"
+        menuItem 'Disable Compositing' "$0 --stop"
+        menuSeparator
+    fi
+    menuItem 'Edit Compositing Settings' "$0 --edit"
+    if [[ -f "$sys_conf" ]] && hash bl-text-editor; then
+        menuItem 'Edit Compositing system settings (root)' "pkexec bl-text-editor $sys_conf"
+    fi
+    menuEnd
+fi
+exit 0

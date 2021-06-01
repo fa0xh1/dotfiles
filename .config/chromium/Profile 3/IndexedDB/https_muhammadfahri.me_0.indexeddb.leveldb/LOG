@@ -1,0 +1,15 @@
+2021/05/05-10:27:09.743 101e Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_muhammadfahri.me_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/05-10:27:09.743 101e Recovering log #11
+2021/05/05-10:27:09.743 101e Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_muhammadfahri.me_0.indexeddb.leveldb/000011.log 
+2021/05/05-10:28:27.587 1191 Level-0 table #16: started
+2021/05/05-10:28:27.594 1191 Level-0 table #16: 5558 bytes OK
+2021/05/05-10:28:27.596 1191 Delete type=0 #11
+2021/05/05-10:28:27.596 1191 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/05-10:28:27.596 1191 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01$\x00.\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00j\x00s\x00/\x00r\x00u\x00n\x00t\x00i\x00m\x00e\x00~\x00m\x00a\x00i\x00n\x00.\x00d\x006\x005\x003\x00c\x00c\x000\x000\x00.\x00j\x00s' @ 402 : 1
+2021/05/05-10:28:27.596 1191 Compacting 1@1 + 1@2 files
+2021/05/05-10:28:27.598 1191 Generated table #17@1: 47 keys, 1734 bytes
+2021/05/05-10:28:27.598 1191 Compacted 1@1 + 1@2 files => 1734 bytes
+2021/05/05-10:28:27.599 1191 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/05-10:28:27.599 1191 Delete type=2 #13
+2021/05/05-10:28:27.599 1191 Delete type=2 #16
+2021/05/05-10:28:27.599 1191 Manual compaction at level-1 from '\x00\x02\x01\x02\x01$\x00.\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00j\x00s\x00/\x00r\x00u\x00n\x00t\x00i\x00m\x00e\x00~\x00m\x00a\x00i\x00n\x00.\x00d\x006\x005\x003\x00c\x00c\x000\x000\x00.\x00j\x00s' @ 402 : 1 .. (end); will stop at (end)

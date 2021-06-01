@@ -1,0 +1,6 @@
+2021/05/02-17:26:39.765 3922 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_muhammadfahri.vercel.app_0.indexeddb.leveldb since it was missing.
+2021/05/02-17:26:39.792 3922 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_muhammadfahri.vercel.app_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/02-17:27:29.381 5254 Level-0 table #5: started
+2021/05/02-17:27:29.384 5254 Level-0 table #5: 2220 bytes OK
+2021/05/02-17:27:29.386 5254 Delete type=0 #3
+2021/05/02-17:27:29.386 5254 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

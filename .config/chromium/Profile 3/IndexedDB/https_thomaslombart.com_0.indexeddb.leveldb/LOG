@@ -1,0 +1,6 @@
+2021/04/21-10:03:10.619 6bd7 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_thomaslombart.com_0.indexeddb.leveldb since it was missing.
+2021/04/21-10:03:10.626 6bd7 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_thomaslombart.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/21-10:03:42.671 6bd7 Level-0 table #5: started
+2021/04/21-10:03:42.678 6bd7 Level-0 table #5: 1650 bytes OK
+2021/04/21-10:03:42.680 6bd7 Delete type=0 #3
+2021/04/21-10:03:42.680 6bd7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

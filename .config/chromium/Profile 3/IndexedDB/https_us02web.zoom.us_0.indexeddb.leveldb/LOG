@@ -1,0 +1,15 @@
+2021/05/29-19:50:39.332 4e8a Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_us02web.zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/29-19:50:39.332 4e8a Recovering log #4
+2021/05/29-19:50:39.332 4e8a Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_us02web.zoom.us_0.indexeddb.leveldb/000004.log 
+2021/05/29-20:26:44.482 532d Level-0 table #8: started
+2021/05/29-20:26:44.483 532d Level-0 table #8: 209 bytes OK
+2021/05/29-20:26:44.486 532d Delete type=0 #4
+2021/05/29-20:26:44.486 532d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/29-20:26:44.486 532d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 279 : 1
+2021/05/29-20:26:44.486 532d Compacting 1@1 + 1@2 files
+2021/05/29-20:26:44.488 532d Generated table #9@1: 53 keys, 1052 bytes
+2021/05/29-20:26:44.488 532d Compacted 1@1 + 1@2 files => 1052 bytes
+2021/05/29-20:26:44.490 532d compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/29-20:26:44.490 532d Delete type=2 #8
+2021/05/29-20:26:44.490 532d Delete type=2 #5
+2021/05/29-20:26:44.490 532d Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 279 : 1 .. (end); will stop at (end)

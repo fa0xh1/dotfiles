@@ -1,0 +1,6 @@
+2021/05/05-21:36:50.476 ed2 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_www.techinasia.com_0.indexeddb.leveldb since it was missing.
+2021/05/05-21:36:50.485 ed2 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_www.techinasia.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/05-21:41:02.229 4e94 Level-0 table #5: started
+2021/05/05-21:41:02.236 4e94 Level-0 table #5: 8087 bytes OK
+2021/05/05-21:41:02.238 4e94 Delete type=0 #3
+2021/05/05-21:41:02.238 4e94 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

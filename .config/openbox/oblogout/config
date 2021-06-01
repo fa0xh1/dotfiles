@@ -1,0 +1,14 @@
+[general]
+#theme=elementary
+#theme=green
+
+#theme = adeos-branco
+theme = adeos-branco-mono
+#theme = adeos-cores
+
+[button]
+size=96
+
+[label]
+font=Monospace Bold 10
+color=#B0C4DE

@@ -1,0 +1,15 @@
+2021/05/25-13:35:50.776 3c2 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/25-13:35:50.777 3c2 Recovering log #7
+2021/05/25-13:35:50.777 3c2 Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000007.log 
+2021/05/25-13:36:22.800 1bd Level-0 table #12: started
+2021/05/25-13:36:22.802 1bd Level-0 table #12: 688 bytes OK
+2021/05/25-13:36:22.803 1bd Delete type=0 #7
+2021/05/25-13:36:22.803 1bd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/25-13:36:22.804 1bd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 97 : 1
+2021/05/25-13:36:22.804 1bd Compacting 1@1 + 1@2 files
+2021/05/25-13:36:22.805 1bd Generated table #13@1: 22 keys, 658 bytes
+2021/05/25-13:36:22.805 1bd Compacted 1@1 + 1@2 files => 658 bytes
+2021/05/25-13:36:22.806 1bd compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/25-13:36:22.807 1bd Delete type=2 #12
+2021/05/25-13:36:22.807 1bd Delete type=2 #9
+2021/05/25-13:36:22.807 1bd Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 97 : 1 .. (end); will stop at (end)

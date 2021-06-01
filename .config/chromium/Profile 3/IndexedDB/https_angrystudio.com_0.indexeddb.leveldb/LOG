@@ -1,0 +1,18 @@
+2021/04/21-08:40:34.501 2577 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_angrystudio.com_0.indexeddb.leveldb since it was missing.
+2021/04/21-08:40:34.510 2577 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_angrystudio.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/21-08:40:39.862 2577 Level-0 table #5: started
+2021/04/21-08:40:39.864 2577 Level-0 table #5: 569 bytes OK
+2021/04/21-08:40:39.866 2577 Delete type=0 #3
+2021/04/21-08:40:39.866 2577 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/21-08:40:41.863 2577 Level-0 table #7: started
+2021/04/21-08:40:41.870 2577 Level-0 table #7: 218 bytes OK
+2021/04/21-08:40:41.872 2577 Delete type=0 #4
+2021/04/21-08:40:41.872 2577 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/21-08:40:41.872 2577 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
+2021/04/21-08:40:41.872 2577 Compacting 1@1 + 1@2 files
+2021/04/21-08:40:41.874 2577 Generated table #8@1: 4 keys, 221 bytes
+2021/04/21-08:40:41.874 2577 Compacted 1@1 + 1@2 files => 221 bytes
+2021/04/21-08:40:41.875 2577 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/21-08:40:41.875 2577 Delete type=2 #7
+2021/04/21-08:40:41.875 2577 Delete type=2 #5
+2021/04/21-08:40:41.875 2577 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2021/04/21-11:34:15.170 34b1 Creating DB /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
+2021/04/21-11:34:15.179 34b1 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/21-11:39:32.577 5436 Level-0 table #5: started
+2021/04/21-11:39:32.584 5436 Level-0 table #5: 6872 bytes OK
+2021/04/21-11:39:32.586 5436 Delete type=0 #3
+2021/04/21-11:39:32.586 5436 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

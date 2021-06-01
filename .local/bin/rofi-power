@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+# rofi-power
+# Use rofi to call systemctl for shutdown, reboot, etc
+
+# 2021 Rizqi Nur Assyaufi - https://bandithijo.github.io
+
+# LAUNCHER="/usr/local/bin/dmenu"
+LAUNCHER="/usr/bin/rofi -dmenu -lines 5 -width 200"
+
+logout() {
+    # eval $1
+    # pkill -15 xinit
+    # pkill -15 Xorg
+    # killall $1
+    i3-msg exit
+}
+
+reboot() {
+    loginctl reboot
+    #systemctl reboot
+    #shutdown -r now
+}
+
+poweroff() {
+    loginctl poweroff
+    #systemctl poweroff
+    #shutdown -p now
+}
+
+suspend() {
+    loginctl suspend
+    #$($USE_LOCKER) && "$LOCKER"; systemctl suspend
+    #acpiconf -s 3
+}
+
+hibernate() {
+    loginctl hibernate
+    #$($USE_LOCKER) && "$LOCKER"; systemctl hibernate
+    # notify-send "CAUTION!" "Hibernate Feature not implemented yet." --urgency=critical
+}
+
+OPTIONS='''
+[
+[ " Exit window manager", "logout" ],
+[ " Reboot system",       "reboot" ],
+[ " Power-off system",    "poweroff" ],
+[ " Suspend system",      "suspend" ],
+[ " Hibernate system",    "hibernate" ]
+]
+'''
+
+obj_menu=$(echo $OPTIONS | jq -r ".[][0]" | $LAUNCHER -i -p " Sessions")
+obj_selected=$(echo $OPTIONS | jq -r ".[] | select(.[0] == \"$obj_menu\") | .[1]")
+
+$obj_selected

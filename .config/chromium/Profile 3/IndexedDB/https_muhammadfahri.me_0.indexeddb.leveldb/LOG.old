@@ -1,0 +1,15 @@
+2021/05/01-14:09:19.994 ad8 Reusing MANIFEST /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_muhammadfahri.me_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/01-14:09:19.994 ad8 Recovering log #7
+2021/05/01-14:09:19.994 ad8 Reusing old log /home/gh0zialfat1h/.config/chromium/Profile 3/IndexedDB/https_muhammadfahri.me_0.indexeddb.leveldb/000007.log 
+2021/05/01-14:09:54.078 abf Level-0 table #12: started
+2021/05/01-14:09:54.086 abf Level-0 table #12: 1062 bytes OK
+2021/05/01-14:09:54.088 abf Delete type=0 #7
+2021/05/01-14:09:54.088 abf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/01-14:09:54.088 abf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x14\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00p\x00o\x00r\x00t\x00f\x00o\x00l\x00i\x00o' @ 134 : 1
+2021/05/01-14:09:54.088 abf Compacting 1@1 + 1@2 files
+2021/05/01-14:09:54.089 abf Generated table #13@1: 24 keys, 891 bytes
+2021/05/01-14:09:54.089 abf Compacted 1@1 + 1@2 files => 891 bytes
+2021/05/01-14:09:54.091 abf compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/01-14:09:54.091 abf Delete type=2 #12
+2021/05/01-14:09:54.091 abf Delete type=2 #9
+2021/05/01-14:09:54.091 abf Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x14\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00p\x00o\x00r\x00t\x00f\x00o\x00l\x00i\x00o' @ 134 : 1 .. (end); will stop at (end)
